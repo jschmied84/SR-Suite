@@ -425,7 +425,7 @@ end
 figure(5)
 plot(zval);
 
-stepsexport = fopen('calib.dat','w');
+stepsexport = fopen('steps.dat','w');
 
 for j=1:length(zval)
     fprintf(stepsexport,'%6.5f\n',zval(j));    
